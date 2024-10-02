@@ -18,6 +18,7 @@ public class ProductsController(StoreContext context) : ControllerBase
     {
         return await context.Products.ToListAsync();
     }
+    
 
     [HttpGet("{id:int}")]//api/products/2
 

@@ -9,8 +9,6 @@ namespace API.Controllers;
 [Route("api/[controller]")]
 public class ProductsController(StoreContext context) : ControllerBase
 {
-
-
     private readonly StoreContext context = context;
 
     [HttpGet]
